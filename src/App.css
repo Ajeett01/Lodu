@@ -1,0 +1,64 @@
+/* Styling for a Header */
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for a Button */
+.button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for a Container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for a Card */
+.card {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for Text */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Styling for a Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .button {
+    font-size: 14px;
+  }
+}
