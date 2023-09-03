@@ -6,6 +6,7 @@ import BasicModal from './EditTaskModal';
 import BasicButtons from './Button';
 import { CheckBox } from '@mui/icons-material';
 import Checkboxes from './checkbox';
+import BasicList from './List';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <TemporaryDrawer />
       <BasicCard/>
       <BasicModal/>
+      <BasicList/>
     </div>
   );
 }
