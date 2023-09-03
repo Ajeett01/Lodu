@@ -9,6 +9,7 @@ import Checkboxes from './checkbox';
 import BasicList from './List';
 import RecipeReviewCard from './Card';
 import SimpleDialogDemo from './componenets/Dialog';
+import BasicTable from './Table';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <BasicList/>
       <RecipeReviewCard/>
       <SimpleDialogDemo/>
+      <BasicTable/>
     </div>
   );
 }
