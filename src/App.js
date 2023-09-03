@@ -7,6 +7,7 @@ import BasicButtons from './Button';
 import { CheckBox } from '@mui/icons-material';
 import Checkboxes from './checkbox';
 import RecipeReviewCard from './Card';
+import SimpleDialogDemo from './componenets/Dialog';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <BasicCard/>
       <BasicModal/>
       <RecipeReviewCard/>
+      <SimpleDialogDemo/>
     </div>
   );
 }
